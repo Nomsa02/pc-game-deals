@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PC Game Deals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>PC Game Deals</h1>
+    <p>Discover great games at great prices.</p>
+  </header>
+
+  <main>
+    
+<h2>Available Games</h2>
+
+<div class="filters">
+  <input
+    type="search"
+    id="search-input"
+    placeholder="Search games..."
+    aria-label="Search games by title"
+  >
+
+  <label>
+    <input type="checkbox" id="sale-filter">
+    On sale only
+  </label>
+</div>
+
+<div id="games-container" class="games-grid"></div>
+
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
